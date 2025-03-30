@@ -2,12 +2,12 @@
 
 **How to Run**
 
-**1. Open the File in Google Colab**
+- **1. Open the File in Google Colab**
 
-     Open the notebook file in Google Colab.
+  Open the notebook file in Google Colab.
 
-     Please run the cells in order.
-
+  Please run the cells in order.
+  
      
 **2. Install Required Packages**
 
