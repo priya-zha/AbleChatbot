@@ -1,52 +1,59 @@
 # AbleChatbot
 
-How to Run
+**How to Run**
 
-1. Open the File in Google Colab
+**1. Open the File in Google Colab**
 
-Open the notebook file in Google Colab.
+     Open the notebook file in Google Colab.
 
-Please run the cells in order.
+     Please run the cells in order.
 
-2. Install Required Packages
+     
+**2. Install Required Packages**
 
-Once you reach the last cell that installs all the packages:
+     Once you reach the last cell that installs all the packages:
 
-pip install --upgrade --force-reinstall llama-index
+     pip install --upgrade --force-reinstall llama-index
 
-Colab will ask you to restart the session. Click on "Restart" to proceed.
+     Colab will ask you to restart the session. Click on "Restart" to proceed.
 
-3. Prepare the Data Directory
 
-Create a directory in Colab with the name 'Able'.
+**3. Prepare the Data Directory**
 
-Add the file data.pdf inside the Able directory. This file contains the necessary data for the chatbot. Then run the cells in the order.
+     Create a directory in Colab with the name 'Able'
 
-4. Authenticate with Hugging Face
+     Add the file data.pdf inside the Able directory. This file contains the necessary data for the chatbot. Then run the cells in the order.
 
-Once you reach to the cell that asks for the Hugging Face access token, run the cell:
 
-from huggingface_hub import notebook_login
-notebook_login()
+**4. Authenticate with Hugging Face**
 
-If you don't have a Hugging Face account, create one at Hugging Face.
+     Once you reach to the cell that asks for the Hugging Face access token, run the cell:
 
-Click on your profile icon, navigate to Access Tokens, and create a new token.
+     from huggingface_hub import notebook_login
+     notebook_login()
 
-Copy the token and paste it when prompted in the Colab cell.
 
-5. Run the Remaining Cells
+     If you don't have a Hugging Face account, create one at Hugging Face.
 
-Execute the other cells in order.
+     Click on your profile icon, navigate to Access Tokens, and create a new token.
 
-6. You have two ways to interact with the chatbot:
+     Copy the token and paste it when prompted in the Colab cell.
 
-Python CLI: Use the command-line interface to talk with the chatbot.
+     
+**5. Run the Remaining Cells**
 
-Gradio Interface: A web-based interface to interact with the chatbot.
+     Execute the other cells in order.
+     
 
-7. Screenshots of Chatbot Results
+**6. You have two ways to interact with the chatbot:**
 
-I have provided screenshots of the chatbot’s results, named result1 and result2.
+     Python CLI: Use the command-line interface to talk with the chatbot.
 
-You can find them in the Colab notebook for reference.
+     Gradio Interface: A web-based interface to interact with the chatbot.
+
+
+**7. Screenshots of Chatbot Results**
+
+     I have provided screenshots of the chatbot’s results, named result1 and result2.
+
+     You can find them in the Colab notebook for reference.
