@@ -22,7 +22,7 @@
 
   Create a directory in Colab with the name 'Able'
 
-  Add the file data.pdf inside the Able directory. This file contains the necessary data for the chatbot. Then run the cells in the order.
+  Add the file data.pdf inside the Able directory. This file contains the necessary data of the Able company for the chatbot that has been scraped from Able's website. Then run the cells in the order.
 
 
 **4. Authenticate with Hugging Face**
